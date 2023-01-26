@@ -63,10 +63,74 @@ button {
   background-color: var(--main-light-color);
 }
 /* header */
+
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+}
+
+.mobile-menu-open {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.momile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+/* .container {
+  width: 428x;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -155,11 +219,11 @@ button {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 
 /* main */
 
-.hero {
+/* .hero {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
@@ -428,11 +492,11 @@ button {
 .customers-link:focus {
   fill: var(--main-logo-color2);
   border: 1px solid var(--main-logo-color2);
-}
+} */
 
 /* footer */
 
-.container-footer {
+/* .container-footer {
   display: flex;
 }
 .page-footer {
@@ -567,7 +631,7 @@ button {
 .sub-container-btn {
   display: flex;
   margin-top: 16px;
-}
+} */
 
 /* portfolio */
 
@@ -707,7 +771,7 @@ button {
 
 /* модальне вікно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -932,4 +996,4 @@ button {
   border-color: var(--main-btn-color-2);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
