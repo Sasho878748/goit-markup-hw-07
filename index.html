@@ -19,13 +19,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body class="page-body">
     <header class="page-header">
       <div class="container header-box">
-        <a class="logo-link link" href="./index.html"
-          >Web<span class="studio-logo">Studio</span>
-        </a>
+        <div class="box-logo">
+          <a class="logo-link link" href="./index.html"
+            >Web<span class="studio-logo">Studio</span>
+          </a>
+        </div>
         <nav class="nav-list">
           <ul class="header-list list">
             <li class="item"><a class="header-link link current" href="./index.html">Studio</a></li>
@@ -33,7 +38,7 @@
             <li class="item"><a class="header-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <ul class="header-list header-list-colum  list">
+        <ul class="header-list header-list-colum list">
           <li class="item">
             <a class="header-link-adress link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -43,7 +48,7 @@
             <a class="header-link-adress link" href="tel:110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
-        <button type="button" class="mobile-menu-open js-open-menu">
+        <button type="button" class="mobile-menu-open js-open-menu is-open">
           <svg class="mobile-menu-open-icon" width="32" height="22">
             <use href="./images/symbol-defs.svg#icon-hamburger"></use>
           </svg>
@@ -52,7 +57,7 @@
 
       <!-- ---MOBILE MENU------- -->
 
-      <div class="momile-menu js-menu-container is-open">
+      <div class="momile-menu js-menu-container">
         <button type="button" class="mobile-menu-close-btn js-close-menu">
           <svg class="mobile-menu-close-btn-icon" width="8" height="8">
             <use href="./images/symbol-defs.svg#icon-close"></use>
@@ -74,9 +79,7 @@
             >
           </li>
           <li class="item-mobile-link-contacts">
-            <a
-              class="header-link-adress-mobile link"
-              href="mailto:info@devstudio.com"
+            <a class="header-link-adress-mobile link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
