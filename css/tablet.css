@@ -1,4 +1,6 @@
 @media screen and (min-width: 768px) {
+  /* header */
+
   .container {
     width: 768px;
   }
@@ -68,5 +70,30 @@
     letter-spacing: 0.04em;
     color: var(--main-p-color);
     display: block;
+  }
+
+  /* -------HERO------- */
+  .hero {
+    width: 768px;
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.07;
+    width: 494px;
+  }
+
+  /* ------------------МОДАЛЬНЕ ВІКНО---------- */
+
+  .modal {
+    min-width: 408px;
+    padding: 24px;
+  }
+  /* -----------VALUES--------- */
+
+  .values {
+    width: 768px;
   }
 }

@@ -1,5 +1,8 @@
 @media screen and (min-width: 1200px) {
-  .container {
+  
+  /* header */
+  
+    .container {
     width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
@@ -37,5 +40,28 @@
   .header-list-colum {
     flex-direction: row;
     gap: 40px;
+  }
+
+  /* -------HERO------- */
+
+  .hero {
+    width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+    font-size: 56px;
+    line-height: 1.07;
+    width: 494px;
+  }
+  /* -----------VALUES--------- */
+  .values {
+    width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 120px;
+  padding-bottom: 120px;
   }
 }
