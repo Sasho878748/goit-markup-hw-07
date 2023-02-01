@@ -321,11 +321,14 @@ button {
   .values-svg {
     display: none;
   }
+
+  .work {
+    display: none;
+  }
 }
 .values {
   padding-top: 96px;
   padding-bottom: 96px;
-  
 }
 
 .values-container {
@@ -343,10 +346,6 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-.values-list {
-  /* display: flex; */
-  /* gap: 24px; */
 }
 
 .values-item {
@@ -389,27 +388,14 @@ button {
   padding: 24px 102px;
 }
 
-.work {
-  padding-bottom: 120px;
-}
-.work-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-logo-color1);
-  margin-bottom: 72px;
-}
-.work-list {
-  display: flex;
-  gap: 24px;
-}
+/* -----------TEAM--------- */
+
 .team {
   background: var(--main-comand-bg-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
+  padding-left: 83px;
+  padding-right: 83px;
 }
 
 .list-item {
@@ -417,7 +403,15 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+min-width: 260px;
+min-height: 428px;
+margin: 0 auto;
 }
+
+.list-item:not(:last-child) {
+  margin-bottom: 72px;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -428,10 +422,7 @@ button {
   color: var(--main-logo-color1);
   margin-bottom: 72px;
 }
-.tem-list {
-  display: flex;
-  gap: 24px;
-}
+
 .team-paragraf {
   font-weight: 500;
   font-size: 20px;
@@ -460,7 +451,10 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 32px;
 }
+
+
 
 .list-item-svg {
   height: 40px;
@@ -483,9 +477,13 @@ button {
   background-color: var(--main-btn-color-2);
 }
 
+/* -----------CUSTOMERS--------- */
+
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .customers-title {
   font-weight: 700;
@@ -499,11 +497,15 @@ button {
 }
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  column-gap: 16px;
+  row-gap: 72px;
+
 }
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 
@@ -527,13 +529,16 @@ button {
 
 /* footer */
 
-/* .container-footer {
-  display: flex;
+.container-footer {
+  /* display: flex; */
 }
 .page-footer {
   background: var(--main-hero-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .link-footer {
@@ -542,22 +547,33 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
+  /* display: flex; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-logo-color2);
+  display: block;
 }
+
+.studio-logo-fot {
+  color: var(--main-comand-bg-color);
+}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
-  width: 264px;
+  width: 268px;
+  height: 72px;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .soc-box-footer {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 .soc-text {
@@ -574,6 +590,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .list-item-svg-footer {
@@ -604,15 +621,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  
 }
 
 .sub-container {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .sub-input {
-  width: 264px;
+  width: 396px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -621,6 +637,7 @@ button {
   outline: none;
   padding-left: 16px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .sub-input::placeholder {
@@ -642,7 +659,7 @@ button {
   border-radius: 4px;
   color: #ffffff;
   fill: #ffffff;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -650,7 +667,10 @@ button {
   gap: 16px;
   transition: background-color 250ms var(--timing-function),
     border-color 250ms var(--timing-function);
+    margin: 0 auto;
 }
+
+
 
 .sub-button:hover,
 .sub-button:focus {
@@ -660,9 +680,10 @@ button {
 }
 
 .sub-container-btn {
-  display: flex;
+  /* display: flex; */
   margin-top: 16px;
-} */
+  width: 403px;
+}
 
 /* portfolio */
 

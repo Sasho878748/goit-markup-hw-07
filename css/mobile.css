@@ -1,11 +1,9 @@
 @media screen and (min-width: 480px) {
- 
-    /* header */
- 
-    .container {
+  /* header */
+
+  .container {
     width: 428px;
     margin: 0 auto;
-    
   }
 
   /* -------HERO------- */
@@ -21,6 +19,23 @@
     width: 428px;
     margin: 0 auto;
   }
+  /* -----------TEAM--------- */
+  .team {
+    width: 428px;
+    margin: 0 auto;
+  }
+
+  /* -----------CUSTOMERS--------- */
+
+  .customers {
+    width: 428px;
+    margin: 0 auto;
+  }
+
+  /* footer */
+
+  .page-footer {
+    width: 428px;
+    margin: 0 auto;
+  }
 }
-
-

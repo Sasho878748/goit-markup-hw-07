@@ -1,8 +1,7 @@
 @media screen and (min-width: 1200px) {
-  
   /* header */
-  
-    .container {
+
+  .container {
     width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
@@ -14,10 +13,8 @@
 
   .header-link-adress {
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    
   }
 
   .box-logo {
@@ -59,9 +56,92 @@
   /* -----------VALUES--------- */
   .values {
     width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .values-item {
+    flex-wrap: nowrap;
+    max-width: 264px;
+    row-gap: 0px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .valyes-paragraf {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .values-text {
+    font-weight: 400;
+  }
+
+  .values-svg {
+    margin-bottom: 8px;
+  }
+  /* -----------WORK--------- */
+
+  .work {
+    width: 1440px;
+  }
+
+  .work {
+  padding-bottom: 120px;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-logo-color1);
+  margin-bottom: 72px;
+}
+.work-list {
+  display: flex;
+  gap: 24px;
+}
+/* -----------TEAM--------- */
+.team {
+    width: 1440px;
+     padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+
+    .team-item {
+    flex-wrap: nowrap;
+    row-gap: 0px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* -----------CUSTOMERS--------- */
+  .customers {
+    width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
     padding-top: 120px;
-  padding-bottom: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+    row-gap: 0px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* footer */
+
+  .page-footer {
+    width: 1440px;
+   
   }
 }

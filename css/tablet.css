@@ -112,10 +112,54 @@
   }
 
   .values-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  .valyes-paragraf {
+    text-align: left;
+  }
+  /* -----------TEAM--------- */
+  .team {
+    width: 768px;
+    padding-bottom: 96px;
+    padding-left: 108px;
+    padding-right: 108px;
+    
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .list-item {
+    min-width: 264px;
+  }
+
+
+  .list-item:not(:last-child) {
   margin-bottom: 0px;
 }
 
-.valyes-paragraf {
-  text-align: left;
+/* -----------CUSTOMERS--------- */
+
+.customers {
+    width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .customers-item {
+  width: 168px;
+  height: 88px;
 }
+
+/* footer */
+.page-footer {
+    width: 768px;
+  
+  }
 }
