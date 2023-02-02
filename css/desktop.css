@@ -45,6 +45,15 @@
     width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-image.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-image-2x.jpg);
+    }
   }
 
   .hero-title {
@@ -90,32 +99,32 @@
   }
 
   .work {
-  padding-bottom: 120px;
-}
-.work-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-logo-color1);
-  margin-bottom: 72px;
-}
-.work-list {
-  display: flex;
-  gap: 24px;
-}
-/* -----------TEAM--------- */
-.team {
+    padding-bottom: 120px;
+  }
+  .work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-logo-color1);
+    margin-bottom: 72px;
+  }
+  .work-list {
+    display: flex;
+    gap: 24px;
+  }
+  /* -----------TEAM--------- */
+  .team {
     width: 1440px;
-     padding-top: 120px;
+    padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 156px;
     padding-right: 156px;
   }
 
-    .team-item {
+  .team-item {
     flex-wrap: nowrap;
     row-gap: 0px;
     margin: 0 auto;
@@ -139,9 +148,41 @@
   }
 
   /* footer */
+  .container-footer {
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
 
   .page-footer {
     width: 1440px;
-   
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  .container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-right: 159px;
+  }
+
+  .footer-item {
+    height: 110px;
+  }
+
+  .footer-text {
+    height: auto;
+    margin: 0;
+  }
+
+  .soc-box-footer {
+    height: 80px;
+    margin-left: 120px;
+  }
+
+  .sub-form {
+    margin-left: 80px;
   }
 }

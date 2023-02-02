@@ -261,10 +261,17 @@ button {
   padding-bottom: 112px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-image.jpg);
+    url(../images/hero-image-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-image-mob-2x.jpg);
+  }
 }
 
 .hero-title {
@@ -329,6 +336,8 @@ button {
 .values {
   padding-top: 96px;
   padding-bottom: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .values-container {
@@ -403,9 +412,9 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-min-width: 260px;
-min-height: 428px;
-margin: 0 auto;
+  min-width: 260px;
+  min-height: 428px;
+  margin: 0 auto;
 }
 
 .list-item:not(:last-child) {
@@ -454,8 +463,6 @@ margin: 0 auto;
   margin-bottom: 32px;
 }
 
-
-
 .list-item-svg {
   height: 40px;
   width: 40px;
@@ -502,7 +509,6 @@ margin: 0 auto;
   margin: 0 auto;
   column-gap: 16px;
   row-gap: 72px;
-
 }
 .customers-item {
   width: 190px;
@@ -667,10 +673,8 @@ margin: 0 auto;
   gap: 16px;
   transition: background-color 250ms var(--timing-function),
     border-color 250ms var(--timing-function);
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
-
 
 .sub-button:hover,
 .sub-button:focus {

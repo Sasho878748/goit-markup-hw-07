@@ -76,6 +76,15 @@
   .hero {
     width: 768px;
     padding-bottom: 108px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-image-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-image-tab-2x.jpg);
+    }
   }
 
   .hero-title {
@@ -124,7 +133,6 @@
     padding-bottom: 96px;
     padding-left: 108px;
     padding-right: 108px;
-    
   }
 
   .team-list {
@@ -139,27 +147,73 @@
     min-width: 264px;
   }
 
-
   .list-item:not(:last-child) {
-  margin-bottom: 0px;
-}
+    margin-bottom: 0px;
+  }
 
-/* -----------CUSTOMERS--------- */
+  /* -----------CUSTOMERS--------- */
 
-.customers {
+  .customers {
     width: 768px;
     padding-left: 108px;
     padding-right: 108px;
   }
 
   .customers-item {
-  width: 168px;
-  height: 88px;
-}
+    width: 168px;
+    height: 88px;
+  }
 
-/* footer */
-.page-footer {
+  /* footer */
+  .page-footer {
     width: 768px;
-  
+    padding-left: 108px;
+    padding-right: 164px;
+    margin: 0 auto;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .link-footer {
+    text-align: left;
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+
+  .soc-box-footer {
+    text-align: left;
+    margin-left: 24px;
+  }
+
+  .sub-text {
+    text-align: left;
+    display: block;
+  }
+
+  .sub-container-btn {
+    width: 468px;
+  }
+
+  .sub-input {
+    width: 264px;
+    text-align: left;
+    display: block;
+  }
+
+  .sub-container-btn {
+    display: flex;
+  }
+
+  .sub-button {
+    margin-left: 24px;
   }
 }
