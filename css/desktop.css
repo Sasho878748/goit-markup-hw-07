@@ -96,6 +96,7 @@
 
   .work {
     width: 1440px;
+    margin: 0 auto;
   }
 
   .work {
@@ -156,16 +157,15 @@
 
   .page-footer {
     width: 1440px;
-    padding: 0;
-    margin: 0;
-    flex-wrap: nowrap;
-  }
-
-  .container-footer {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 156px;
     padding-right: 159px;
+    /* flex-wrap: nowrap; */
+  }
+
+  .container-footer {
+    width: 100%;
   }
 
   .footer-item {
