@@ -185,4 +185,23 @@
   .sub-form {
     margin-left: 80px;
   }
+
+  /* -----------PORTFOLIO--------- */
+
+  .portfolio {
+    width: 1440px;
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .container {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+
+  .pl-btn {
+    margin-bottom: 64px;
+  }
+  .pl-card {
+    row-gap: 48px;
+  }
 }

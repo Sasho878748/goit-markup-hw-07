@@ -164,7 +164,6 @@
     height: 88px;
   }
 
-
   /* footer */
   .page-footer {
     width: 768px;
@@ -216,5 +215,21 @@
 
   .sub-button {
     margin-left: 24px;
+  }
+
+  /* -----------PORTFOLIO--------- */
+  .portfolio {
+    width: 768px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .pl-btn {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .pl-card {
+    row-gap: 72px;
   }
 }
