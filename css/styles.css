@@ -106,9 +106,7 @@ button {
   .header-list {
     display: none;
   }
-  .xxx {
-    display: none;
-  }
+
   .momile-menu {
     position: fixed;
     width: 100%;
@@ -120,7 +118,8 @@ button {
     background-color: #ffffff;
     padding: 40px;
     display: none;
-    /* box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
   }
 
   .mobile-menu-open {
@@ -223,6 +222,7 @@ button {
     margin-bottom: 40px;
   }
 
+  
   .team-list-link-mobile {
     display: flex;
     justify-content: left;
@@ -610,7 +610,6 @@ button {
   justify-content: center;
   gap: 16px;
   margin-bottom: 72px;
-  
 }
 
 .list-item-svg-footer {
@@ -724,7 +723,7 @@ button {
   column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
-  
+
   justify-content: space-between;
 }
 
