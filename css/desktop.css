@@ -2,9 +2,9 @@
   /* header */
 
   .container {
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1160px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
   }
 
   .logo-link {
@@ -64,7 +64,7 @@
   }
   /* -----------VALUES--------- */
   .values {
-    width: 1440px;
+    width: 1160px;
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -95,7 +95,7 @@
   /* -----------WORK--------- */
 
   .work {
-    width: 1440px;
+    width: 1160;
     margin: 0 auto;
   }
 
@@ -118,11 +118,11 @@
   }
   /* -----------TEAM--------- */
   .team {
-    width: 1440px;
+    width: 1160px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .team-item {
@@ -134,9 +134,9 @@
 
   /* -----------CUSTOMERS--------- */
   .customers {
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1160px;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -193,10 +193,10 @@
     padding-top: 96px;
     padding-bottom: 120px;
   }
-  .container {
+  /* .container {
     padding-left: 156px;
     padding-right: 156px;
-  }
+  } */
 
   .pl-btn {
     margin-bottom: 64px;

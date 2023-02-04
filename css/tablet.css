@@ -91,7 +91,8 @@
     margin-bottom: 40px;
     font-size: 56px;
     line-height: 1.07;
-    width: 494px;
+    max-width: 494px;
+    width: 100%;
   }
 
   /* ------------------МОДАЛЬНЕ ВІКНО---------- */
