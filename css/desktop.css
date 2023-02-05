@@ -150,7 +150,7 @@
   }
 
   .container-footer {
-    width: 1155px;
+    width: 1158px;
     flex-wrap: nowrap;
     margin: 0 auto;
   }
@@ -172,9 +172,12 @@
   /* -----------PORTFOLIO--------- */
 
   .portfolio {
-    width: 1158px;
     padding-top: 96px;
     padding-bottom: 120px;
+  }
+
+  .container-portfolio {
+    width: 1158px;
   }
 
   .pl-btn {

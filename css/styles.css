@@ -558,7 +558,7 @@ button {
 }
 
 .footer-item {
-margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -573,7 +573,6 @@ margin-bottom: 72px;
   justify-content: center;
   text-align: left;
   margin: 0 auto;
-  
 }
 
 .soc-box-footer {
@@ -594,7 +593,6 @@ margin-bottom: 72px;
   display: flex;
   justify-content: center;
   gap: 16px;
-  
 }
 
 .list-item-svg-footer {

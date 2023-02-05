@@ -49,8 +49,7 @@
 
   /* -----------PORTFOLIO--------- */
 
-  .portfolio {
-    /* width: 428px; */
-    /* margin: 0 auto; */
+  .container-portfolio {
+    width: 426px;
   }
 }

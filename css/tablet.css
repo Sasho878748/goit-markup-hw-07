@@ -214,9 +214,12 @@
 
   /* -----------PORTFOLIO--------- */
   .portfolio {
-    width: 768px;
     padding-top: 64px;
     padding-bottom: 96px;
+  }
+
+  .container-portfolio {
+    width: 766px;
   }
 
   .pl-btn {
