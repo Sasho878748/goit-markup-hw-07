@@ -2,47 +2,55 @@
   /* header */
 
   .container {
-    width: 428px;
     margin: 0 auto;
+  }
+
+  .header-box {
+    width: 425px;
   }
 
   /* -------HERO------- */
 
-  .hero {
+  .hero-container {
     width: 428px;
-    margin: 0 auto;
+  }
+
+  .link-mobail-tel {
+    font-size: 36px;
   }
 
   /* -----------VALUES--------- */
 
-  .values {
-    width: 428px;
-    margin: 0 auto;
+  .values-container {
+    width: 426px;
   }
+
   /* -----------TEAM--------- */
-  .team {
-    width: 428px;
-    margin: 0 auto;
+
+  .container-team {
+    width: 294px;
   }
 
   /* -----------CUSTOMERS--------- */
 
-  .customers {
-    width: 428px;
-    margin: 0 auto;
+  .container-customers {
+    width: 426px;
   }
 
   /* footer */
 
   .page-footer {
-    width: 428px;
     margin: 0 auto;
   }
 
-   /* -----------PORTFOLIO--------- */
+  .container-footer {
+    width: 426px;
+  }
 
-   .portfolio {
-    width: 428px;
-    margin: 0 auto;
-   }
+  /* -----------PORTFOLIO--------- */
+
+  .portfolio {
+    /* width: 428px; */
+    /* margin: 0 auto; */
+  }
 }
