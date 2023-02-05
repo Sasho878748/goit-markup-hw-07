@@ -353,6 +353,13 @@ button {
   margin: -1px;
 }
 
+.values-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
 .values-item {
   flex-wrap: wrap;
   max-width: 396px;
@@ -450,7 +457,6 @@ button {
 .team-box {
   text-align: center;
   margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .team-list-link {

@@ -108,7 +108,7 @@
   }
 
   .values-list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 72px;
@@ -118,7 +118,6 @@
   .values-item {
     width: 100%;
     max-width: 351px;
-    margin: 0 auto;
   }
 
   .values-item:not(:last-child) {
